@@ -1,0 +1,253 @@
+{
+  "surveyId": "5c24c13e-0589-11ea-8d71-362b9e155667",
+  "form": [
+     {
+      "key": "odp_1",
+      "label": "1. Czy na podstawie Twojej wizyty w Selfy poleciłbyś UPC znajomym lub rodzinie?",
+      "activePage":1,
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "activePageOnClick":1,
+      "required": true,
+      "order":1,
+      "type": "radio",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },
+  {
+      "activePage":1,
+      "order":2,
+      "key": "odp_1a",
+      "label": "Prosimy o komentarz, co wpływa na brak polecania UPC? Co powinniśmy poprawić, abyś polecał UPC?",
+      "type": "textarea",
+      "rows": 5,
+      "maxLength":2000,
+      "parent_key": "odp_1",
+      "showIf":{"key": "odp_1", "eq": [0,1,2,3,4,5,6]}
+    },
+{
+      "activePage":1,
+      "order":3,
+      "maxLength":2000,
+      "key": "odp_1b",
+      "label": "Prosimy o komentarz co powinniśmy poprawić, abyś chętniej polecał UPC?",
+      "type": "textarea",
+      "rows": 5,
+      "parent_key": "odp_1",
+      "showIf":{"key": "odp_1", "eq": [7,8]}
+    },
+   {
+      "activePage":1,
+      "order":4,
+      "maxLength":2000,
+      "key": "odp_1c",
+      "label": "Prosimy o komentarz, jakie są główne powody dla których polecasz UPC?",
+      "type": "textarea",
+      "rows": 5,
+      "parent_key": "odp_1",
+      "showIf":{"key": "odp_1", "eq": [9,10]}
+   },
+ {
+      "key":"odp_2",
+      "activePage":2,
+      "order":5,
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "type": "radio",
+      "required": true,
+      "label":"2. Czy jesteś zadowolony z łatwości logowania się do Selfy?",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },
+ {
+      "activePage":2,
+      "order":6,
+      "key":"odp_3",
+      "required": true,
+      "longValuesLabels": true,
+      "type": "radio",
+      "label":"3. Przy użyciu jakiej chciałbyś logować się do Selfy?",
+      "values":[
+        {"key":"0", "value": "0","label": "Numer identyfikacyjny"},
+        {"key":"1", "value": "1","label": "Adres e-mail"},
+        {"key":"2", "value": "2","label": "Własna nazwa użytkownika"},
+        {"key":"3", "value": "3","label": "Inne"}
+      ]
+    },
+ {
+      "activePage":2,
+      "order":7,
+      "key":"odp_3a",
+      "label":"Uzupełnij odpowiedź",
+      "type": "textarea",
+      "rows": 5,
+      "parent_key": "odp_3",
+      "showIf":{"key": "odp_3", "eq": [3]}
+    },
+   {
+      "activePage":2,
+      "order":8,
+      "key":"odp_4",
+      "type": "radio",
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "required": true,
+      "label":"4. Czy jesteś zadowolony z czytelności i łatwości zrozumienia szczegółów rachunku w Selfy?",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },
+    {
+      "activePage":2,
+      "order":9,
+      "required": true,
+      "type": "radio",
+      "key":"odp_5",
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "label":"5. Czy jesteś zadowolony z poprawności informacji przedstawionych w szczegółach rachunku w Selfy?",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },
+   {
+      "activePage":2,
+      "required": true,
+      "order":10,
+      "key":"odp_6",
+      "type": "radio",
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "label":"6. Czy jesteś zadowolony z szczegółowości informacji dotyczących rachunku przedstawionych w Selfy?",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },
+    {
+      "key": "odp_7",
+      "label": "7. Czy zawsze było wiadomo, gdzie kliknąć, żeby dotrzeć do poszukiwanych informacji?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "required": true,
+      "order":11,
+      "type": "radio",
+      "values":[
+        {"key":"0", "value": "0","label": "Nie"},
+        {"key":"1", "value": "1","label": "Tak"}
+      ]
+    },
+    {
+      "key": "odp_7a",
+      "label": "Jakie problemy napotkałeś poszukując interesujących Cię informacji?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "order":12,
+      "type": "textarea",
+      "rows": 5,
+      "parent_key": "odp_7",
+      "showIf":{"key": "odp_7", "eq": [0]}
+    },
+    {
+      "key": "odp_8",
+      "label": "8. Czy skorzystałeś z metody płatności online dostępnej w Selfy?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "required": true,
+      "order":13,
+      "type": "radio",
+      "values":[
+        {"key":"0", "value": "0","label": "Nie"},
+        {"key":"1", "value": "1","label": "Tak"}
+      ]
+    },{
+      "key": "odp_8a",
+      "label": "Czy jesteś zadowolony z łatwości realizacji płatności online?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "order":14,
+      "type": "radio",
+      "parent_key": "odp_8",
+      "showIf":{"key": "odp_8", "eq": [1]},
+      "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
+      "values":[
+        {"key":"0", "value": "0","label": "0"},
+        {"key":"1", "value": "1","label": "1"},
+        {"key":"2", "value": "2","label": "2"},
+        {"key":"3", "value": "3","label": "3"},
+        {"key":"4", "value": "4","label": "4"},
+        {"key":"5", "value": "5","label": "5"},
+        {"key":"6", "value": "6","label": "6"},
+        {"key":"7", "value": "7","label": "7"},
+        {"key":"8", "value": "8","label": "8"},
+        {"key":"9", "value": "9","label": "9"},
+        {"key":"10", "value": "10","label": "10"}
+      ]
+    },{
+      "key": "odp_8b",
+      "label": "Dlaczego nie skorzystałeś z płatności online dostępnej w Selfy?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "order":15,
+      "type": "textarea",
+      "rows": 5,
+      "parent_key": "odp_8",
+      "showIf":{"key": "odp_8", "eq": [0]}
+    },
+    {
+      "key": "odp_9",
+      "label": "9. Czy masz jakieś dodatkowe sugestie dotyczące Selfy, którymi chciałbyś się z nami podzielić?",
+      "activePage":3,
+      "activePageOnClick":3,
+      "order":16,
+      "type": "textarea",
+      "rows": 5
+    }
+  ]
+}
