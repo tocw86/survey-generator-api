@@ -3,7 +3,7 @@
   "form": [
      {
       "key": "odp_1",
-      "label": "1. Czy na podstawie Twojej wizyty w Selfy poleciłbyś UPC znajomym lub rodzinie?",
+      "label": "1. Czy na podstawie Twojej wizyty w Selfy poleciłbyś %company% znajomym lub rodzinie?",
       "activePage":1,
       "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
       "activePageOnClick":1,
@@ -28,7 +28,7 @@
       "activePage":1,
       "order":2,
       "key": "odp_1a",
-      "label": "Prosimy o komentarz, co wpływa na brak polecania UPC? Co powinniśmy poprawić, abyś polecał UPC?",
+      "label": "Prosimy o komentarz, co wpływa na brak polecania %company%? Co powinniśmy poprawić, abyś polecał %company%?",
       "type": "textarea",
       "rows": 5,
       "maxLength":2000,
@@ -51,7 +51,7 @@
       "order":4,
       "maxLength":2000,
       "key": "odp_1c",
-      "label": "Prosimy o komentarz, jakie są główne powody dla których polecasz UPC?",
+      "label": "Prosimy o komentarz, jakie są główne powody dla których polecasz %company%?",
       "type": "textarea",
       "rows": 5,
       "parent_key": "odp_1",
@@ -64,7 +64,7 @@
       "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
       "type": "radio",
       "required": true,
-      "label":"2. Czy jesteś zadowolony z łatwości logowania się do Selfy?",
+      "label":"2. Czy jesteś zadowolony z łatwości logowania się do %app_name%?",
       "values":[
         {"key":"0", "value": "0","label": "0"},
         {"key":"1", "value": "1","label": "1"},
@@ -86,7 +86,7 @@
       "required": true,
       "longValuesLabels": true,
       "type": "radio",
-      "label":"3. Przy użyciu jakiej chciałbyś logować się do Selfy?",
+      "label":"3. Przy użyciu jakiej chciałbyś logować się do %app_name%?",
       "values":[
         {"key":"0", "value": "0","label": "Numer identyfikacyjny"},
         {"key":"1", "value": "1","label": "Adres e-mail"},
@@ -111,7 +111,7 @@
       "type": "radio",
       "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
       "required": true,
-      "label":"4. Czy jesteś zadowolony z czytelności i łatwości zrozumienia szczegółów rachunku w Selfy?",
+      "label":"4. Czy jesteś zadowolony z czytelności i łatwości zrozumienia szczegółów rachunku w %app_name%?",
       "values":[
         {"key":"0", "value": "0","label": "0"},
         {"key":"1", "value": "1","label": "1"},
@@ -133,7 +133,7 @@
       "type": "radio",
       "key":"odp_5",
       "content":"<div class='col-6'>zdecydowanie <br> nie</div><div class='col-6 text-right'>zdecydowanie  <br> tak</div>",
-      "label":"5. Czy jesteś zadowolony z poprawności informacji przedstawionych w szczegółach rachunku w Selfy?",
+      "label":"5. Czy jesteś zadowolony z poprawności informacji przedstawionych w szczegółach rachunku w %app_name%?",
       "values":[
         {"key":"0", "value": "0","label": "0"},
         {"key":"1", "value": "1","label": "1"},
@@ -196,7 +196,7 @@
     },
     {
       "key": "odp_8",
-      "label": "8. Czy skorzystałeś z metody płatności online dostępnej w Selfy?",
+      "label": "8. Czy skorzystałeś z metody płatności online dostępnej w %app_name%?",
       "activePage":3,
       "activePageOnClick":3,
       "required": true,
@@ -231,7 +231,7 @@
       ]
     },{
       "key": "odp_8b",
-      "label": "Dlaczego nie skorzystałeś z płatności online dostępnej w Selfy?",
+      "label": "Dlaczego nie skorzystałeś z płatności online dostępnej w %app_name%?",
       "activePage":3,
       "activePageOnClick":3,
       "order":15,
@@ -242,7 +242,7 @@
     },
     {
       "key": "odp_9",
-      "label": "9. Czy masz jakieś dodatkowe sugestie dotyczące Selfy, którymi chciałbyś się z nami podzielić?",
+      "label": "9. Czy masz jakieś dodatkowe sugestie dotyczące %app_name%, którymi chciałbyś się z nami podzielić?",
       "activePage":3,
       "activePageOnClick":3,
       "order":16,
