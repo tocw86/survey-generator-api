@@ -40,7 +40,7 @@
       "order":3,
       "maxLength":2000,
       "key": "odp_1b",
-      "label": "Prosimy o komentarz co powinniśmy poprawić, abyś chętniej polecał UPC?",
+      "label": "Prosimy o komentarz co powinniśmy poprawić, abyś chętniej polecał %company%?",
       "type": "textarea",
       "rows": 5,
       "parent_key": "odp_1",
